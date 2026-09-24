@@ -1,0 +1,195 @@
+============================================================
+
+User Query:
+Predict the purchase likelihood for customer C163 and product P1163.
+
+Query Type:
+prediction
+
+Route:
+Classical ML (Prediction Probability)
+
+Customer_Id:
+C163
+
+Product_Id:
+P1163
+
+Purchase probabiity:
+0.659980297088623
+
+Prediction label:
+Purchased
+
+Agent Response:
+The model predicts the customer is likely to purchase the product, with a purchase probability of 66%.
+
+============================================================
+
+User Query:
+Recommend casual sneakers under ₹4000 for daily wear.
+
+Query Type:
+recommendation
+
+Route:
+Product RAG
+
+Agent Response:
+I recommend the Adidas Blue Sneakers Synthetic Shoes and the Adidas White Sneakers Mesh Shoes. Both are designed for daily wear and are priced under ₹4000.
+
+============================================================
+
+User Query:
+Which customer segment does C102 belong to?
+
+Query Type:
+segmentation
+
+Route:
+Classical ML (Customer Segmentation)
+
+Agent Response:
+The identified segment is **High Frequency Customers**. This segment includes customers who make purchases very often and have shown recent activity, indicating they are engaged and likely loyal to your brand. This is important because focusing on these customers can lead to increased sales and customer retention.
+
+============================================================
+
+User Query:
+I need running shoes under $200 with a rating above 4
+
+Query Type:
+recommendation
+
+Route:
+Product RAG
+
+Agent Response:
+There are no running shoes available under $200 with a rating above 4 in the retrieved context.
+
+============================================================
+
+User Query:
+What is the purchase likelihood for customer C142?
+
+Query Type:
+prediction
+
+Route:
+Classical ML (Prediction Probability)
+
+Customer_Id:
+C142
+
+Purchase probabiity:
+0.42983075976371765
+
+Prediction label:
+Not Purchased
+
+Agent Response:
+The model predicts the customer is unlikely to purchase the product, with a purchase probability of 42.98%.
+
+============================================================
+
+User Query:
+Can I return a product after 30 days?
+
+Query Type:
+policy
+
+Route:
+Policy RAG
+
+Agent Response:
+Returns are allowed within 7 days of delivery for unused products with original packaging.
+
+Policy ID:
+POL_RETURNS
+
+============================================================
+
+User Query:
+Suggest products for a premium customer who prefers black formal shoes.
+
+Query Type:
+recommendation
+
+Route:
+Product RAG
+
+Agent Response:
+I recommend the Bata Black Formal Mesh Shoes, which are designed for comfort and style.
+
+============================================================
+
+User Query:
+Can I exchange an item I purchased?
+
+Query Type:
+policy
+
+Route:
+Policy RAG
+
+Agent Response:
+Size exchanges are allowed within 10 days of delivery, subject to stock availability. Exchange is not available for intimate wear or final sale products.
+
+Policy ID:
+POL_EXCHANGE
+
+============================================================
+
+User Query:
+Which customer segment has the highest purchase frequency?
+
+Query Type:
+segmentation
+
+Route:
+Classical ML (Customer Segmentation)
+
+Agent Response:
+The identified segment is **Moderate Value and High Purchase Frequency Customers**. The relevant metric is **total_orders**, which indicates that these customers place a significant number of orders despite having a moderate order value. This suggests they are loyal and frequently engage with your offerings, making them valuable for driving consistent sales.
+
+============================================================
+
+User Query:
+Which customer segment appears to be the most price-sensitive?
+
+Query Type:
+segmentation
+
+Route:
+Classical ML (Customer Segmentation)
+
+Agent Response:
+The identified segment is **Low Value and High Engagement Customers**. The relevant metric is **average discount percent**, which indicates that these customers tend to have a lower order value but are highly engaged with your brand. This suggests that while they may not spend as much per order, they are likely to respond positively to promotions and discounts, making them valuable for targeted marketing efforts.
+
+============================================================
+
+User Query:
+Summarise the top three retrieved products and explain why they fit the query.
+
+Query Type:
+recommendation
+
+Route:
+Product RAG
+
+Agent Response:
+The top three retrieved products include two pairs of Skechers shoes: the Skechers Black Running Synthetic Shoes and the Skechers Red Casual Mesh Shoes. The black running shoes are ideal for daily wear, emphasizing comfort and style, while the red casual shoes are tailored for travel, also focusing on comfort and quality.
+
+============================================================
+
+User Query:
+Which segment is the most inactive?
+
+Query Type:
+segmentation
+
+Route:
+Classical ML (Customer Segmentation)
+
+Agent Response:
+The identified segment is **Inactive or At-Risk Customers**. The relevant metric is **days since last purchase**, which has a value of **3 days**. This indicates that these customers have not made a purchase recently and are at risk of becoming inactive. In this context, a low recency (few days since last purchase) suggests that these customers may need re-engagement strategies to encourage them to shop again.
+
