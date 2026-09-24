@@ -23,7 +23,7 @@ The project demonstrates how Classical ML, RAG, and Agentic AI can be combined w
 
 A supervised machine learning pipeline predicts the probability that a customer will purchase a given product.
 
-** Model** : XGBoost
+**Model** : XGBoost
 
 The pipeline includes:
 
